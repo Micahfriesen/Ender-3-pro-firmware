@@ -216,7 +216,8 @@
 // NOT compatible with LCD
 //
 // Detect pin doesn't work when ONBOARD and NO_SD_HOST_DRIVE disabled
-#if SD_CONNECTION_IS(ONBOARD)
+// #if SD_CONNECTION_IS(ONBOARD)
+#if 1
   #if USE_NEW_SPI_API
     #define SD_SPI MARLIN_SPI(HardwareSPI3, PC9)
   #else
