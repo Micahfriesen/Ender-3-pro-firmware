@@ -78,31 +78,6 @@
 // Steppers
 //
 
-/*
-#ifndef X_ENABLE_PIN
-#define X_ENABLE_PIN                        PE4
-#endif
-#define X_STEP_PIN                          PE3
-#define X_DIR_PIN                           PE2
-
-#ifndef Y_ENABLE_PIN
-  #define Y_ENABLE_PIN                        PE1
-#endif
-#define Y_STEP_PIN                          PE0
-#define Y_DIR_PIN                           PB9
-
-#define Z_ENABLE_PIN                        PB8
-#define Z_STEP_PIN                          PB5
-#define Z_DIR_PIN                           PB4
-
-#define E0_ENABLE_PIN                       PB3
-#define E0_STEP_PIN                         PD6
-#define E0_DIR_PIN                          PD3
-
-#define E1_ENABLE_PIN                       PA3
-#define E1_STEP_PIN                         PD15
-#define E1_DIR_PIN                          PA1
-*/
 
 #ifndef X_ENABLE_PIN
 #define X_ENABLE_PIN                        PA3
@@ -134,22 +109,6 @@
   // No Hardware serial for steppers
   //
 
-  /*  
-  #define X_SERIAL_TX_PIN                   PD5
-  #define X_SERIAL_RX_PIN        X_SERIAL_TX_PIN
-
-  #define Y_SERIAL_TX_PIN                   PD7
-  #define Y_SERIAL_RX_PIN        Y_SERIAL_TX_PIN
-
-  #define Z_SERIAL_TX_PIN                   PD4
-  #define Z_SERIAL_RX_PIN        Z_SERIAL_TX_PIN
-
-  #define E0_SERIAL_TX_PIN                  PD9
-  #define E0_SERIAL_RX_PIN      E0_SERIAL_TX_PIN
-
-  #define E1_SERIAL_TX_PIN                  PD8
-  #define E1_SERIAL_RX_PIN      E1_SERIAL_TX_PIN
-  */
 
   #define X_SERIAL_TX_PIN                   PD8
   #define X_SERIAL_RX_PIN        X_SERIAL_TX_PIN
